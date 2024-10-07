@@ -12,7 +12,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .addBearerAuth()
-    .setTitle("API_Movie")
+    .setTitle("Movie")
     .setDescription(`Final Project CyberSoft Academy`)
     .setVersion('1.0')
     .build();

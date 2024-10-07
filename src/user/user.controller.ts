@@ -50,19 +50,7 @@ export class UserController {
     return this.userService.findUser(query)
   }
 
-  @UseGuards(JwtGuard)
-  @ApiBearerAuth()
-  @Get("TimKiemNguoiDungPhanTrang")
-  findUserPaginate(@Query() query: FindUserDto) {
-    return this.userService.findUserPaginate(query)
-  }
 
-  @UseGuards(JwtGuard)
-  @ApiBearerAuth()
-  @Post("ThemNguoiDung")
-  addNewUser(@Body() body: AddUserDto) {
-    return this.userService.addNewUser(body)
-  }
 
   @UseGuards(JwtGuard)
   @ApiBearerAuth()

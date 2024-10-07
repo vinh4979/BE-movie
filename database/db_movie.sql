@@ -178,10 +178,10 @@ INSERT INTO `NguoiDung` (`tai_khoan`, `ho_ten`, `email`, `so_dt`, `mat_khau`, `l
 INSERT INTO `NguoiDung` (`tai_khoan`, `ho_ten`, `email`, `so_dt`, `mat_khau`, `loai_nguoi_dung`) VALUES
 ('test2', 'User 2', 'user2@example.com', '987654321', 'password2', 'admin');
 INSERT INTO `NguoiDung` (`tai_khoan`, `ho_ten`, `email`, `so_dt`, `mat_khau`, `loai_nguoi_dung`) VALUES
-('test3', 'duy', 'test3@gmail.com', '0123456789', '$2b$10$g1uPKJqDfZ0mvlzeOlXsbep1T8Y82l9uZRLoDtlKYYrsQEHWTPWj.', 'user');
+('test3', 'vinh', 'test3@gmail.com', '0123456789', '$2b$10$g1uPKJqDfZ0mvlzeOlXsbep1T8Y82l9uZRLoDtlKYYrsQEHWTPWj.', 'user');
 INSERT INTO `NguoiDung` (`tai_khoan`, `ho_ten`, `email`, `so_dt`, `mat_khau`, `loai_nguoi_dung`) VALUES
-('test5', 'duy2', 'test5@gmail.com', '0123457676', '$2b$10$qDvbRQzG24CTckaYjhAPTeINek00fDZ.PUAmew4.qJGnfWgcb4bvC', 'user'),
-('test6', 'Duy Nguyen', 'test@gmail.com', '012345678910', '$2b$10$nmuzTqgpK7Yio30O1HDBQ..RjJiBaDjuZhSV5dqmQDkMoWtmLUUJ2', 'admin');
+('test5', 'vinh2', 'test5@gmail.com', '0123457676', '$2b$10$qDvbRQzG24CTckaYjhAPTeINek00fDZ.PUAmew4.qJGnfWgcb4bvC', 'user'),
+('test6', 'vinh', 'test@gmail.com', '012345678910', '$2b$10$nmuzTqgpK7Yio30O1HDBQ..RjJiBaDjuZhSV5dqmQDkMoWtmLUUJ2', 'admin');
 
 INSERT INTO `Phim` (`ma_phim`, `ten_phim`, `trailer`, `hinh_anh`, `mo_ta`, `ngay_khoi_chieu`, `danh_gia`, `hot`, `dang_chieu`, `sap_chieu`) VALUES
 (1, 'The Creator', 'https://www.youtube.com/watch?v=kTMpVh0eauk', 'Image1.jpg', 'The movie is set in a future where humanity is in a battle against artificial intelligence (AI). Joshua (John David Washington) is a former operative hired to assassinate \"The Creator,\" considered the mastermind behind the AI, who has developed a mysterious and powerful weapon capable of ending the war and wiping out the human race.', '2023-12-01 00:00:00', 4, 1, 1, 0);

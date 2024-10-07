@@ -256,7 +256,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRhaV9raG9hbiI6InRlc3QzIn0sImlhdCI6MTcwNDUyMDAxNSwiZXhwIjoxNzA0NTIxMjE1fQ.7GECLjjsF8xUD3krBWIDz7LAv73LdzIf3zfeWiVaUwU",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InRhaV9raG9hbiI6InRlc3QzIn0sImlhdCI6MTcwNvinhMDAxNSwiZXhwIjoxNzA0NTIxMjE1fQ.7GECLjjsF8xUD3krBWIDz7LAv73LdzIf3zfeWiVaUwU",
 								"type": "text",
 								"disabled": true
 							}
@@ -391,7 +391,7 @@
 								},
 								{
 									"key": "ho_ten",
-									"value": "duy2",
+									"value": "vinh2",
 									"type": "text"
 								},
 								{
@@ -540,7 +540,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{domain}}/api/QuanLyNguoiDung/TimKiemNguoiDungPhanTrang?soTrang=1&soPhanTuTrenTrang=2&tuKhoa=duy",
+							"raw": "{{domain}}/api/QuanLyNguoiDung/TimKiemNguoiDungPhanTrang?soTrang=1&soPhanTuTrenTrang=2&tuKhoa=vinh",
 							"host": [
 								"{{domain}}"
 							],
@@ -560,7 +560,7 @@
 								},
 								{
 									"key": "tuKhoa",
-									"value": "duy"
+									"value": "vinh"
 								}
 							]
 						}
@@ -671,7 +671,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"tai_khoan\": \"test6\",\r\n    \"email\": \"test@gmail.com\",\r\n    \"ho_ten\": \"Duy Nguyen\",\r\n    \"so_dt\": \"012345678910\",\r\n    \"loai_nguoi_dung\": \"admin\"\r\n}",
+							"raw": "{\r\n    \"tai_khoan\": \"test6\",\r\n    \"email\": \"test@gmail.com\",\r\n    \"ho_ten\": \"vinh\",\r\n    \"so_dt\": \"012345678910\",\r\n    \"loai_nguoi_dung\": \"admin\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
