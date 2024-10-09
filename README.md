@@ -4,6 +4,9 @@
 
 Đây là một dự án backend sử dụng NestJS để xây dựng API cho hệ thống quản lý rạp chiếu phim. Dự án bao gồm các chức năng như quản lý người dùng, quản lý phim, quản lý rạp chiếu và đặt vé.
 
+## Video Demo
+Xem demo của dự án tại: [YouTube](https://youtu.be/pBvA6I0h3b4)
+
 ## Công nghệ sử dụng
 
 - NestJS: Framework chính để xây dựng ứng dụng
